@@ -1,0 +1,14 @@
+<isdecorate template="common/layout/page">
+
+<div>
+	<h2>${pdict.cmt.custom.body}</h2>
+	</div>
+	
+
+	
+	
+	<div class="home-main homepage">
+        <isslot id="example" description="Example page slot." context="global" />
+    </div>
+    
+  </isdecorate>

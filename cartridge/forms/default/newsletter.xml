@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19" secure="false">
+
+<field formid="stateCode" label="label.input.state" type="string" mandatory="true" >
+            <options>
+                <option optionid=""  label="resource.select" value=""/>
+               <option optionid="AL" 	label="state.us.alabama" 		value="AL"/>
+			<option optionid="AK" 	label="state.us.alaska" 		value="AK"/>
+			<option optionid="AS" 	label="state.us.americansamoa" 	value="AS"/>
+            </options>
+            </field>
+		
+	<field 
+		formid="fname" 
+		label="label.input.firstname.profile" 
+		mandatory="true" 
+		max-length="50" 
+		type="string" />
+​
+	<field 
+		formid="lname" 
+		label="label.input.lastname.profile" 
+		mandatory="true" 
+		max-length="50" 
+		type="string" />
+		
+	<field 
+		formid="phone" 
+		label="label.input.phone.profile" 
+		mandatory="true" 
+		max-length="13" 
+		type="string" />
+	
+	<field 
+		formid="gender" 
+		label="label.input.gender.profile" 
+		mandatory="true" 
+		max-length="13" 
+		type="string" />
+		
+		
+	<field 
+		formid="birthday" 
+		label="label.input.birthday.profile" 
+		mandatory="true" 
+		
+		type="string" />
+		
+	
+	<field
+		formid="email" 
+		label="label.input.email.profile" 
+		mandatory="true" 
+		max-length="50" 
+		regexp="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$"
+		type="string" />
+</form>

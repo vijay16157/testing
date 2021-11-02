@@ -1,0 +1,14 @@
+<isdecorate template="common/layout/page">
+   
+
+   
+            <div>
+            
+            
+             ${Resource.msg('names', 'forms1','null')}
+           
+            </div>
+   
+    
+    
+</isdecorate>
